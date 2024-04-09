@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+hmtl {
+  font-size: 10px;
+}
+
+body{
+  font-family: 'Noto Sans', sans-serif;
+  margin: 0;
+}
+#main-layout {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template:
+  "n n" 70px
+  "s s" 380px
+  "c c" 
+}
+
+#nav {
+  grid-area: n;
+}
+#contents{
+  grid-area: c;
+}
+#slidepicture{
+  grid-area: s;
+}

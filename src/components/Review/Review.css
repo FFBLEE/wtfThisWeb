@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.review-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.review-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+  width: 25%;
+  background-color: #f5f5f5;
+  /* width: calc(33.333% - 20px); */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  font-family: "Prompt", sans-serif;
+}
+
+.review-card img {
+  width: 35%;
+  height: auto;
+  border-radius: 5px 5px 0 0;
+}
+
+.review-card strong {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.2em;
+  font-family: "Prompt", sans-serif;
+}
+
+.review-card em {
+  font-style: italic;
+  font-size: 0.9em;
+  color: #00bf6c;
+  font-family: "Prompt", sans-serif;
+}
+
+.review-card p {
+  margin: 5px 0;
+  font-family: "Prompt", sans-serif;
+}
+
+@media (max-width: 480px) {
+  .review-card {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .review-card {
+    width: 50%;
+  }
+}
+
+.review-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.review-thumbnail {
+  order: 2;
+}
+
+.review-text {
+  order: 1;
+}
+
+.review-card {
+  background-color: #cdcdcd;
+}
+
+.contents {
+  background-color: white;
+  border-radius: 9px 9px 9px 9px;
+  width: 100%;
+  height: auto;
+  font-family: "Prompt", sans-serif;
+}
+.review-thumbnail {
+  padding-top: 0.5cm;
+}
+
+.review-name {
+  padding-left: 0.5cm;
+}
+
+.review-content {
+  padding-left: 0.5cm;
+}
+
+.review-comment {
+  padding-left: 0.5cm;
+  cursor: pointer;
+  font-family: "Prompt", sans-serif;
+}
+
+.review-username {
+  padding-left: 0.5cm;
+  font-family: "Prompt", sans-serif;
+}
+
+.review-username {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  font-family: "Prompt", sans-serif;
+}
+
+.review-username .uname {
+  margin-left: 10px;
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+  font-family: "Prompt", sans-serif;
+}
+
+.review-thumbnail {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.bname,
+.baname {
+  margin: 0;
+  padding-left: 10px;
+  font-family: "Prompt", sans-serif;
+  font-size: smaller;
+  color: #888;
+}
+
+.Revieww {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 200px !important;
+}
+
+.Revieww .Review {
+  flex: 1 0 33%;
+  font-family: "Prompt", sans-serif;
+}

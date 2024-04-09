@@ -1,0 +1,18 @@
+#slidepicture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 380px; /* Adjust as needed */
+}
+
+.image-container {
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Maintain aspect ratio */
+}
